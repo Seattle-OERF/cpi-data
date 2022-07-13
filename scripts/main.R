@@ -1,0 +1,5 @@
+library(here)
+source(here("scripts", "00-initialize.R"))
+source(here("scripts", "01-helpers.R"))
+source(here("scripts", "02-get_cpi_data_from_bls.R"))
+source(here("scripts", "03-plot_cpi.R"))
